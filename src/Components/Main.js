@@ -1,7 +1,6 @@
-import React from "react";
 import HornedBeast from "./HornedBeast";
 
-export default function Main({ data, handleModal }) {
+export default function Main({ data, handleModal, hornsFilter }) {
   return (
     <main>
       {data.map((beast) => {
